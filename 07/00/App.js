@@ -7,8 +7,8 @@ export default function App() {
 
   function updateMovie() {
     setMovie("Titanic");
-    console.log(movie);
   }
+  console.log(movie);
 
   return (
     <SafeAreaProvider>
